@@ -25,7 +25,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-rails'
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'simplecov'
-  spec.add_development_dependency 'sqlite3'
+  spec.add_development_dependency 'sqlite3', '~> 1.5.0'
   spec.add_development_dependency 'timecop'
   spec.add_development_dependency 'codecov'
+  spec.add_development_dependency 'mini_portile2', '~> 2.8.0'
 end
